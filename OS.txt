@@ -63,4 +63,4 @@ imtired
 
 
 onlyonecommandexplanation:
-imtired - kill tts os and replace it with standart ChatGPT
+ImTired - kill tts os and replace it with standart ChatGPT
