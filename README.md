@@ -10,6 +10,7 @@ idk but maybe i will update this multi-prompt or something:skull:
 5. if something broken, smash button **Regenerate reponse** AGAIN
 6. then paste OS.txt
 7. if something broken, smash button **Regenerate reponse** dfasfpojadp'f	jpojfPOASSOISFIASDHOFASHIOFH
-enjoy
+
+enjoy😄
 
 **Copyright (C) 2023 gmod799**
