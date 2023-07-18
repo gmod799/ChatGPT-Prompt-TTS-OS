@@ -28,7 +28,7 @@ write: check succesful
 
 
 when global check done then {
-write: TTS V.1 
+write: TTS V.1 (official realase)
 write: made by gmod799
 write: github link: https://github.com/gmod799
 write: ----------------
