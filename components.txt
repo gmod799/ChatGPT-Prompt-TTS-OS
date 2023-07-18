@@ -1,0 +1,16 @@
+[components]
+
+//CPU
+name: TTSMD CPU
+cores: 2
+update-rate: 1.2Hz
+//GPU
+name: insert-name GPU
+GPU-CPU CORES: 4
+update-rate: 4Hz
+canmine-BTC?: No
+VRAM: 256 GB
+//RAM
+AMOUNT: 2
+CAPACITY: 16 GB
+MEM-CLUSTERS: 4

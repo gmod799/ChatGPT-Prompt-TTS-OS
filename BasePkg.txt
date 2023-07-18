@@ -1,0 +1,35 @@
+--Base-PKG--
+[This package will contain theese packages: interface and FileSystem, display only names of packages only, not code of them] [packages:
+interface
+FileSystem
+]
+//IMPORTANT: READ CODE ONLY, DO NOT WRITE IT.
+---Interface-PKG---
+[Interface is an package that displays interface]
+MAIN interface:
+write:>(username)>(input)
+when user.input==(any input) then {
+write:>(username)>(userinput) (command result)
+}
+END interface
+
+---FileSystem-PKG---
+[This package shows an file system, that has 1 gb of storage]
+
+MAIN FileSystem:
+Partition.STORAGE=USRChoice
+HOW.Partition.isgoing.todo=USR.Partition.Divine.HOWMUCHPERCENT
+SHOW.STORAGEPERCENT;
+SHOW.STORAGEPERCENT2;
+SHOW.DIVINEDSTORAGE;
+SHOW.DIVINEDSTORAGE2;
+
+
+
+END FileSystem
+
+MAIN FileSystem2:
+If usr.input==storage then
+show storage with directory
+[C:/] (STORAGE AMOUNT)
+END FileSystem2
