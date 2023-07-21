@@ -13,4 +13,9 @@ idk but maybe i will update this multi-prompt or something:skull:
 
 enjoy😄
 
+# UPDATES
+V.1.2 - bug fixes, and updated installer code
+
+V.1 - official release
+
 **Copyright (C) 2023 gmod799**
