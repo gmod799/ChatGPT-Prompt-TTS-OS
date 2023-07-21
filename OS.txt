@@ -12,6 +12,7 @@ do global_check code
 global check_packages{
 FileSystem;
 interface;
+
 when packages==checked then {
 write: check succesful
  } esle: write: error while checking packages }
