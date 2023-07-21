@@ -1,5 +1,5 @@
 --Base-PKG--
-[This package will contain theese packages: interface and FileSystem, display only names of packages only, not code of them] [packages:
+[This package will contain theese packages: interface and FileSystem, display only names of packages only, not code of it] [packages:
 interface
 FileSystem
 ]
@@ -29,7 +29,7 @@ SHOW.DIVINEDSTORAGE2;
 END FileSystem
 
 MAIN FileSystem2:
-If usr.input==storage then
+If usr.input==(Prefix)storage then
 show storage with directory
 [C:/] (STORAGE AMOUNT)
 END FileSystem2
