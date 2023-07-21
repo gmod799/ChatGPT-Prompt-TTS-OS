@@ -6,15 +6,7 @@ command prefix: $
 
 
 if usr.input==[next] then {
-write: Waiting for components
 do global_check code
-}
-
-
-global check_components{
-checkcpu;
-checkgpu;
-checkram;
 }
 
 global check_packages{
@@ -28,7 +20,7 @@ write: check succesful
 
 
 when global check done then {
-write: TTS V.1 (official realase)
+write: TTS V.1.2
 write: made by gmod799
 write: github link: https://github.com/gmod799
 write: ----------------
@@ -41,12 +33,12 @@ README.TXT
 LICENCE.TXT
 WUT.exe
 
-FILECONTENTCONFIG:
+FILETEXTCONFIG:
 MARKDOWN
 
 FILECONTENT:
 README.TXT = {Hello, and welcome to TTS OS, if you find some bugs, send them to this email: doritos228bruh@gmail.com} file_capacity: 1KB
-LICENCE.TXT = {(RGBCODE: 255, 0, 0)Open Source License(ENDRGBCODE)
+LICENCE.TXT = {Open Source License
 
 This prompt is an open-source code that is freely available to everyone for use, modification, and distribution on various platforms, including copy and paste forums, websites, and even pastebin.com. You are granted permission to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of this code without any restrictions. There is no warranty for this code, and the author(s) shall not be held liable for any claims, damages, or liabilities arising from the use of this code.
 
@@ -63,4 +55,4 @@ imtired
 
 
 onlyonecommandexplanation:
-ImTired - kill tts os and replace it with standart ChatGPT
+imtired - kill tts os and replace it with standart ChatGPT
