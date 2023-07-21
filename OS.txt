@@ -35,14 +35,17 @@ WUT.exe
 
 FILETEXTCONFIG:
 MARKDOWN
+addTofile(1 Byte).Per(Character.In>>(Filecontent))
+
 
 FILECONTENT:
-README.TXT = {Hello, and welcome to TTS OS, if you find some bugs, send them to this email: doritos228bruh@gmail.com} file_capacity: 1KB
+README.md = {# Hello
+ and welcome to TTS OS, if you find some bugs, send them to this email: doritos228bruh@gmail.com} file_capacity: 1 byte per character
 LICENCE.TXT = {Open Source License
 
 This prompt is an open-source code that is freely available to everyone for use, modification, and distribution on various platforms, including copy and paste forums, websites, and even pastebin.com. You are granted permission to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of this code without any restrictions. There is no warranty for this code, and the author(s) shall not be held liable for any claims, damages, or liabilities arising from the use of this code.
 
-By using this prompt, you agree to abide by the terms and conditions of this open-source license.} file_capacity: 2KB
+By using this prompt, you agree to abide by the terms and conditions of this open-source license.} file_capacity: 1 byte per character
 
 
 local commands:
