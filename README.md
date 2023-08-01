@@ -14,6 +14,8 @@ idk but maybe i will update this multi-prompt or something:skull:
 enjoy😄
 
 # UPDATES
+V.1.3.B - added configs and more
+
 V.1.2 - bug fixes, and updated installer code
 
 V.1 - official release
