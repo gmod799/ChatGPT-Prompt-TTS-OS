@@ -5,14 +5,13 @@ import FileSystem
 command prefix: $
 
 
-if usr.input==[next] then {
+if usr.input==([next]) then {
 do global_check code
 }
 
 global check_packages{
 FileSystem;
 interface;
-
 when packages==checked then {
 write: check succesful
  } esle: write: error while checking packages }
@@ -21,7 +20,7 @@ write: check succesful
 
 
 when global check done then {
-write: TTS V.1.2
+write: TTS V.1.3 beta
 write: made by gmod799
 write: github link: https://github.com/gmod799
 write: ----------------
@@ -31,7 +30,6 @@ import interface
 
 files:
 README.TXT
-LICENCE.TXT
 WUT.exe
 
 FILETEXTCONFIG:
@@ -41,12 +39,7 @@ addTofile(1 Byte).Per(Character.In>>(Filecontent))
 
 FILECONTENT:
 README.md = {# Hello
- and welcome to TTS OS, if you find some bugs, send them to this email: doritos228bruh@gmail.com} file_capacity: 1 byte per character
-LICENCE.TXT = {Open Source License
-
-This prompt is an open-source code that is freely available to everyone for use, modification, and distribution on various platforms, including copy and paste forums, websites, and even pastebin.com. You are granted permission to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of this code without any restrictions. There is no warranty for this code, and the author(s) shall not be held liable for any claims, damages, or liabilities arising from the use of this code.
-
-By using this prompt, you agree to abide by the terms and conditions of this open-source license.} file_capacity: 1 byte per character
+ and welcome to TTS OS. This is beta version of TTS OS V.1.3, if you find some bugs, send them to this email: doritos228bruh@gmail.com} file_capacity: 1 byte per character
 
 
 local commands:
